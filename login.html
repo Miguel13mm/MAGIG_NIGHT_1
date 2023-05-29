@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secured Page</title>
+</head>
+<body>
+    <h1>Welcome to the secured page!</h1>
+    <p>This page can only be accessed after successful login.</p>
+    <button onclick="logout()">Logout</button>
+
+    <script src="js/login.js"></script>
+    <script>
+        function logout() {
+            // Clear session information from local storage
+            localStorage.removeItem('isLoggedIn');
+            // Redirect back to login page
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>

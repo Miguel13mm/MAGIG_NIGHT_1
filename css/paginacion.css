@@ -1,0 +1,44 @@
+@import url('estilos.css');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.paginacion {
+	margin:20px 0;
+    
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:20px 28px;
+	color:#fff;
+	background:#000;
+	text-decoration: none;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.paginacion ul li a:hover {
+	background:#E1B661;
+}
+
+.paginacion ul li .active {
+	background:#E1B661;
+	font-weight:bold;
+    
+}
